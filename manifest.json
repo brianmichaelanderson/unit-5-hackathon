@@ -1,0 +1,19 @@
+  {
+    "manifest_version": 3,
+    "name": "ChatGPT Extensions",
+    "version": "1.0",
+    "description": "Base Level Extension",
+    "host_permissions": [
+        "https://chat.com/*"
+      ],
+    "action": {
+        "default_popup": "chatgpt.html",
+        "default_icon": "chat.png"
+    },
+    "permissions": [
+     "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
