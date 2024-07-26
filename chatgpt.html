@@ -7,19 +7,27 @@
                 font-size: 10px;
                 max-width: 100%
             }
+            h1 {
+                text-align: center;
+            }
             html {
                 width: 120px;
                 height: 120px;
             }
-            button {
+            #button {
                 color: darkblue;
+            }
+            #question {
+                width: 95%;
+                height: 95%;
             }
         </style>
     </head>
   <body>
     <h1>Take me To Chat GPT!</h1>
-    <button type="button" id="button">Click Me!</button>
     <textarea name="searchBox" id="question"></textarea>
+    <button type="button" id="button">Click Me!</button>
+
     <script src="popup.js"></script>
   </body>
 </html>
